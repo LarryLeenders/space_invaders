@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Fri Dec 30 18:25:15 2016
+# Process ID: 19132
+# Current directory: C:/Users/larsl/Documents/E-ICT/digitale2/space_invaders_V4/space_invaders_V4.runs/synth_1
+# Command line: vivado.exe -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+# Log file: C:/Users/larsl/Documents/E-ICT/digitale2/space_invaders_V4/space_invaders_V4.runs/synth_1/top.vds
+# Journal file: C:/Users/larsl/Documents/E-ICT/digitale2/space_invaders_V4/space_invaders_V4.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source top.tcl -notrace

@@ -1,0 +1,78 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.4 (win64) Build 1733598 Wed Dec 14 22:35:39 MST 2016
+| Date         : Fri Dec 30 18:27:28 2016
+| Host         : LAPTOP-E82C7PBC running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file top_control_sets_placed.rpt
+| Design       : Top
+| Device       : xc7a35t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    13 |
+| Unused register locations in slices containing registers |    46 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             139 |           57 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |              91 |           33 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              20 |            9 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++--------------------+--------------------------------------------+-----------------------------------------+------------------+----------------+
+|    Clock Signal    |                Enable Signal               |             Set/Reset Signal            | Slice Load Count | Bel Load Count |
++--------------------+--------------------------------------------+-----------------------------------------+------------------+----------------+
+|  tick_BUFG         | Vga_tekenaar/left_right[9]_i_2_n_0         | Vga_tekenaar/left_right[9]_i_1_n_0      |                2 |              4 |
+|  tick_BUFG         | debR/left_right_reg[10][0]                 | Vga_tekenaar/left_right[10]_i_1_n_0     |                3 |              7 |
+|  tick_BUFG         | Vga_tekenaar/fly                           | Vga_tekenaar/up_down_bullet[10]_i_1_n_0 |                4 |              9 |
+|  clocks/inst/MHz25 | Vga_controller/vsenable                    |                                         |                5 |             10 |
+|  tick_BUFG         | Vga_tekenaar/left_right_alien[10]_i_1_n_0  |                                         |                5 |             11 |
+|  tick_BUFG         | Vga_tekenaar/left_right_bullet[10]_i_1_n_0 |                                         |                5 |             11 |
+|  tick_BUFG         | Vga_tekenaar/up_down_alien                 |                                         |                5 |             11 |
+|  tick_BUFG         | Vga_tekenaar/E[0]                          |                                         |                5 |             16 |
+|  clocks/inst/MHz6  |                                            |                                         |                5 |             20 |
+|  clocks/inst/MHz25 |                                            |                                         |                8 |             20 |
+|  clk_IBUF_BUFG     |                                            |                                         |               13 |             30 |
+|  tick_BUFG         | Vga_tekenaar/p_2_in                        |                                         |                8 |             32 |
+|  tick_BUFG         |                                            |                                         |               31 |             69 |
++--------------------+--------------------------------------------+-----------------------------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 4      |                     1 |
+| 7      |                     1 |
+| 9      |                     1 |
+| 10     |                     1 |
+| 11     |                     3 |
+| 16+    |                     6 |
++--------+-----------------------+
+
+

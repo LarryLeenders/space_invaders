@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1483118711">
+  <File Type="RDS-PROPCONSTRS" Name="top_drc_synth.rpt"/>
+  <File Type="PA-TCL" Name="top.tcl"/>
+  <File Type="RDS-RDS" Name="top.vds"/>
+  <File Type="RDS-UTIL" Name="top_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="top_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="top.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="top_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="top_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/vga_640x480.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Project_Robin_De_Pauw/Project_Robin_De_Pauw/Project_Robin_De_Pauw.srcs/sources_1/new/vga_640x480.vhd"/>
+        <Attr Name="ImportTime" Val="1476202542"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/top.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Project_Robin_De_Pauw/Project_Robin_De_Pauw/Project_Robin_De_Pauw.srcs/sources_1/new/top.vhd"/>
+        <Attr Name="ImportTime" Val="1477242590"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/vga_beeld.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Project_Robin_De_Pauw/Project_Robin_De_Pauw/Project_Robin_De_Pauw.srcs/sources_1/new/vga_beeld.vhd"/>
+        <Attr Name="ImportTime" Val="1477240266"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/DebouncerForControls.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../spaceInvadersV2/spaceInvadersV2.srcs/sources_1/new/DebouncerForControls.vhd"/>
+        <Attr Name="ImportTime" Val="1477488305"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/gameTicksClockDiv.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../spaceInvadersV2/spaceInvadersV2.srcs/sources_1/new/gameTicksClockDiv.vhd"/>
+        <Attr Name="ImportTime" Val="1478031369"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/Ship.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../spaceInvadersV2/spaceInvadersV2.srcs/sources_1/ip/Ship.coe"/>
+        <Attr Name="ImportTime" Val="1478706687"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/bullet.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Space_Invaders_V3/Space_Invaders_V3.srcs/sources_1/ip/bullet.coe"/>
+        <Attr Name="ImportTime" Val="1479046903"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/Alien.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Space_Invaders_V3/Space_Invaders_V3.srcs/sources_1/ip/Alien.coe"/>
+        <Attr Name="ImportTime" Val="1482339298"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../spehz_invadorz/spehz_invadorz.srcs/sources_1/ip/bullet.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../spehz_invadorz/spehz_invadorz.srcs/sources_1/ip/Ship.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../spehz_invadorz/spehz_invadorz.srcs/sources_1/ip/Alien.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/LEDaansturing.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="top"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/Digitale Elektronica/Basys3_Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Project_Robin_De_Pauw/vhdl/Basis VGA/Basis VGA/Basis VGA.srcs/constrs_1/imports/Digitale Elektronica/Basys3_Master.xdc"/>
+        <Attr Name="ImportTime" Val="1475076181"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="blk_mem_gen_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="blk_mem_gen_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="blk_mem_gen_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="clk_wiz_0"/>
+</GenRun>
